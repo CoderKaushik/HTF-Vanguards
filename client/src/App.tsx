@@ -1,11 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import Signup from './pages/signup';
 import Signin from './pages/signin';
 import Home from './pages/home';
 import Dashboard from './pages/dashboard';
 
 function App() {
+  
   return (
     <div className='w-screen h-screen'>
       <Router>
